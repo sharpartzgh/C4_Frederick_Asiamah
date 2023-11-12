@@ -15,7 +15,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em#61dafbaa );
 }
 
 @keyframes logo-spin {
@@ -40,3 +40,32 @@
 .read-the-docs {
   color: #888;
 }
+
+/* button styling */
+.btn {
+  width: 8rem;
+  border-radius: 50px;
+  margin: 10px;
+}
+.btn:last-child{
+  background-color: black
+}
+.btn:first-child{
+  background-color: #020652aa;
+}
+.btn:hover{
+  transition: all 300ms ease-in-out;
+}
+
+.btn.btn:last-child:hover{
+  margin-left: 4rem;
+  color: yellow;
+  transition: all 300ms ease;
+}
+.btn:first-child:hover{
+  width: 10rem;
+  font-size: 1.2rem;
+  color: #ffff;
+  transition: all 300ms ease;
+}
+/* button styling ends here */
